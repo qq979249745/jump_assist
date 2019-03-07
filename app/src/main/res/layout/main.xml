@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="使用说明:先打开辅助，在跳一跳游戏中点击点我，再画出两点间的线，松手后会模拟点击(需要root)"/>
+
+	<Button
+		android:id="@+id/bt"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="启动辅助"/>
+
+</LinearLayout>
+
